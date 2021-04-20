@@ -1,0 +1,129 @@
+.placeholder-img-box {
+	width: 100%;
+	background-image: repeating-linear-gradient(45deg, #cdcdcd, #868686 20%, #323232 10%);
+	font-size: 1rem;
+	font-weight: 600;
+	color: #fff;
+}
+
+.placeholder-img-box .price-box-img {
+	width: initial !important;
+}
+
+.placeholder-img-box.h-auto {
+	height: 100% !important;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.placeholder-img-box.h-auto .price-box-img {
+	width: 50% !important;
+}
+
+.placeholder-img-box.h220 {
+	height: 220px;
+}
+
+.placeholder-img-box.h220 .price-box-img {
+	width: 65% !important;
+}
+
+.placeholder-img-box.h350 {
+	height: 350px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.placeholder-img-box.h350 .price-box-img {
+	width: 50% !important;
+}
+
+.placeholder-img-box.h390 {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: calc(25% - 12.5px) 25%;
+}
+
+.placeholder-img-box.h390 .price-box-img {
+	width: 100% !important;
+}
+
+.placeholder-img-box.h488 {
+	height: 488px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.placeholder-img-box.h488 .price-box-img {
+	width: 50% !important;
+}
+
+.placeholder-img-box.h603 {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.placeholder-img-box.h603 .price-box-img {
+	width: 50% !important;
+}
+
+.placeholder-img-box.h705 {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.placeholder-img-box.h705 .price-box-img {
+	width: 50% !important;
+}
+
+.qrcode-img {
+	margin: 0;
+	vertical-align: initial !important;
+}
+
+.deliver-v {
+	position: relative;
+	/* top: 45px; */
+	display: inline-block;
+	width: 1px;
+	height: 96px;
+	border-left: 1px dashed #c5c5c5;
+	margin: 0 8px;
+}
+
+.pa-0 {
+	padding: 0 !important;
+}
+
+.ph-0 {
+	padding: auto 0;
+}
+
+ul.custom-ul > li {
+	list-style: square;
+	margin: 12px 0;
+}
+
+ul.custom-ul > li > .list-paragraph {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.custom-text {
+	font-weight: 500 !important;
+}

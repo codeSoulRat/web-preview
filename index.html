@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="components/base/base.css">
+    <link rel="stylesheet" href="components/base/extra-self.css">
+    <script src="components/base/core.min.js"></script>
+    <script src="components/base/script.js"></script>
+  </head>
+  <body>
+    <div class="page">
+      <!--RD Navbar-->
+      <header class="section rd-navbar-absolute-wrap" data-preset='{"title":"Navbar Default","category":"header","reload":true,"id":"navbar-default"}'>
+        <nav class="rd-navbar" data-rd-navbar='{"responsive":{"1200":{"stickUpOffset":"50px"}}}'>
+          <div class="navbar-container">
+            <div class="navbar-cell">
+              <div class="navbar-panel">
+                <button class="navbar-switch novi-icon custom-font-menu" data-multi-switch='{"targets":".rd-navbar","scope":".rd-navbar","isolate":"[data-multi-switch]"}'></button>
+                <div class="navbar-logo"><a class="navbar-logo-link" href="index.html"><img class="navbar-logo-inverse" src="images/logo_tmp.png" alt="金视野" width="198" height="50"/></a></div>
+              </div>
+            </div>
+            <div class="navbar-spacer"></div>
+            <div class="navbar-cell navbar-sidebar">
+              <ul class="navbar-navigation rd-navbar-nav">
+                <li class="navbar-navigation-root-item active"><a class="navbar-navigation-root-link" href="index.html">首页</a>
+                </li>
+                <li class="navbar-navigation-root-item"><a class="navbar-navigation-root-link" href="history.html">关于金视野</a>
+                  <!-- <ul class="navbar-navigation-dropdown rd-navbar-dropdown">
+                    <li class="navbar-navigation-back">
+                      <button class="navbar-navigation-back-btn">Back</button>
+                    </li>
+                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="gallery.html">企业画册</a>
+                    </li>
+                  </ul> -->
+                </li>
+                <li class="navbar-navigation-root-item"><a class="navbar-navigation-root-link" href="academics.html">产品中心</a>
+                </li>
+                <li class="navbar-navigation-root-item"><a class="navbar-navigation-root-link" href="tutors.html">解决方案</a>
+                  <!-- <ul class="navbar-navigation-dropdown rd-navbar-dropdown">
+                    <li class="navbar-navigation-back">
+                      <button class="navbar-navigation-back-btn">Back</button>
+                    </li>
+                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="team-member.html">Team member</a>
+                    </li>
+                  </ul> -->
+                </li>
+                <li class="navbar-navigation-root-item"><a class="navbar-navigation-root-link" href="blog.html">媒体中心</a>
+                  <!-- <ul class="navbar-navigation-dropdown rd-navbar-dropdown">
+                    <li class="navbar-navigation-back">
+                      <button class="navbar-navigation-back-btn">Back</button>
+                    </li>
+                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="single-post.html">Single post</a>
+                    </li>
+                  </ul> -->
+                </li>
+                <li class="navbar-navigation-root-item"><a class="navbar-navigation-root-link" href="#">服务支持</a>
+                  <!-- <ul class="navbar-navigation-dropdown rd-navbar-dropdown">
+                    <li class="navbar-navigation-back">
+                      <button class="navbar-navigation-back-btn">Back</button>
+                    </li>
+                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="404.html">404</a>
+                    </li>
+                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="coming-soon.html">Coming soon</a>
+                    </li>
+                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="privacy-policy.html">Privacy policy</a>
+                    </li>
+                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="search-results.html">Search results</a>
+                    </li>
+                  </ul> -->
+                </li>
+                <li class="navbar-navigation-root-item"><a class="navbar-navigation-root-link" href="contact-us.html">联系我们</a>
+                </li>
+              </ul>
+            </div>
+            <div class="navbar-spacer"></div>
+            <div class="navbar-cell">
+              <div class="navbar-subpanel">
+                <div class="navbar-subpanel-item">
+                  <div class="navbar-search">
+                    <div class="navbar-search-container">
+                      <form class="navbar-search-form" action="search-results.html" method="GET" data-rd-search='{"output":".navbar-search-results","mode":"live","liveResults":3,"template":"<h5 class=\"search-title\"><a target=\"_top\" href=\"#{href}\" class=\"search-link\">#{title}</a></h5><p>...#{token}...</p>"}'>
+                        <input class="navbar-search-input" type="text" placeholder="请输入关键字..." autocomplete="off" name="s"/>
+                        <button class="navbar-search-btn custom-font-search novi-icon"></button>
+                        <button class="navbar-search-close search-switch custom-font-close novi-icon" type="button" data-multi-switch='{"targets":".rd-navbar","scope":".rd-navbar","class":"navbar-search-active","isolate":"[data-multi-switch]:not(.search-switch)"}'></button>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="navbar-search-results">没有搜索到任何结果</div>
+                  <button class="navbar-button search-switch custom-font-search" data-multi-switch='{"targets":".rd-navbar","scope":".rd-navbar","class":"navbar-search-active","isolate":"[data-multi-switch]:not(.search-switch)"}'></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!-- Swiper default-->
+      <section class="swiper-container swiper-1 context-dark text-center" data-swiper>
+        <!-- Additional required wrapper-->
+        <div class="swiper-wrapper">
+          <!-- Slides-->
+          <div class="swiper-slide section-md" style="background-image: url( images/image-21-1920x998.jpg )">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-md-9 col-lg-7">
+                  <h1>智慧校园 定制化服务</h1>
+                  <p class="big">所想即所得，量身定制，满足您对校园信息化的一切想象</p><a class="btn btn-primary" href="academics.html">了解更多</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide section-md" style="background-image: url( images/image-07-1920x988.jpg )">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-md-9 col-lg-7">
+                  <h1>首屏轮播关键词2</h1>
+                  <p class="big">对应概述宣传文案对应概述宣传文案对应概述宣传文案对应概述宣传文案对应概述宣传文案对应概述宣传文案对应概述宣传文案对应概述宣传文案对应概述宣传文案对应概述宣传文案对应概述宣传文案对应概述宣传文案对应概述宣传文案对应概述宣传文案对应概述宣传文案对应概述宣传文案对应概述宣传文案</p><a class="btn btn-primary" href="academics.html">了解更多</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide section-md" style="background-image: url( images/image-21-1920x998.jpg )">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-md-9 col-lg-7">
+                  <h1>首屏轮播关键词3</h1>
+                  <p class="big">对应概述宣传文案对应概述宣传文案对应概述宣传文案对应概述宣传文案对应概述宣传文案对应概述宣传文案对应概述宣传文案对应概述宣传文案对应概述宣传文案对应概述宣传文案对应概述宣传文案对应概述宣传文案对应概述宣传文案对应概述宣传文案对应概述宣传文案对应概述宣传文案对应概述宣传文案</p><a class="btn btn-primary" href="academics.html">了解更多</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Pagination-->
+        <div class="swiper-pagination"></div>
+      </section>
+      <!-- Blurb default-->
+      <section class="section-md bg-transparent text-center">
+        <div class="container">
+          <div class="text-block text-block-1" data-animate='{"class":"fadeIn"}'>
+            <h5 class="text-primary">——&nbsp;&nbsp;&nbsp;&nbsp;深剖传统校园教与学痛点&nbsp;&nbsp;&nbsp;&nbsp;——</h5>
+            <h2>解决方案</h2>
+            <p class="big">智慧校园定制化服务是以促进信息技术与教育教学融合、提高教与学的效果为目的，以物联网、云计算、大数据分析等核心技术，提供一种环境全面感知、智慧型、数据化、网络化、协作型一体化和个性化的教学、科研、管理和生活服务。</p>
+          </div>
+          <div class="row row-30 justify-content-center">
+            <div class="col-sm-6 col-md-4">
+                    <!-- Blurb-->
+                    <article class="blurb blurb-2" data-animate='{"class":"fadeInUp"}'>
+                      <div class="icon blurb-icon custom-font-online-course"></div>
+                      <div class="blurb-title h4">关键词1</div>
+                      <div class="blurb-text big">阐述文案阐述文案阐述文案阐述文案阐述文案阐述文案阐述文案阐述文案阐述文案阐述文案阐述文案阐述文案</div>
+                    </article>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                    <!-- Blurb-->
+                    <article class="blurb blurb-2" data-animate='{"class":"fadeInUp","delay":".15s"}'>
+                      <div class="icon blurb-icon custom-font-degree"></div>
+                      <div class="blurb-title h4">关键词2</div>
+                      <div class="blurb-text big">阐述文案阐述文案阐述文案阐述文案阐述文案阐述文案阐述文案阐述文案阐述文案阐述文案阐述文案阐述文案</div>
+                    </article>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                    <!-- Blurb-->
+                    <article class="blurb blurb-2" data-animate='{"class":"fadeInUp","delay":".3s"}'>
+                      <div class="icon blurb-icon custom-font-school"></div>
+                      <div class="blurb-title h4">关键词3</div>
+                      <div class="blurb-text big">阐述文案阐述文案阐述文案阐述文案阐述文案阐述文案阐述文案阐述文案阐述文案阐述文案阐述文案阐述文案</div>
+                    </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Price box-->
+      <section class="section-md bg-300 text-center">
+        <div class="container">
+          <div class="text-block text-block-1" data-animate='{"class":"fadeIn"}'>
+            <h2>核心业务</h2>
+            <p class="big">对教育教学、教育管理进行洞察和预测的智慧学习环境，业务涉及智慧管理、智慧教学、智慧生活、智慧环境。</p>
+          </div>
+          <div class="owl-carousel owl-content-1" data-owl="{&quot;dots&quot;:true}" data-loop="false" data-items="1" data-sm-items="2" data-md-items="3" data-lg-items="4">
+                  <!-- Price box-->
+                  <div class="price-box">
+                    <div class="price-box-media">
+                      <div class="placeholder-img-box h220">
+                        <img class="price-box-img" src="images/img_tmp.png" alt="" height="220"/>
+                        <div>占位图  270 * 220</div>
+                      </div>
+                      <div class="price-box-tag">占位标签</div>
+                    </div>
+                    <div class="price-box-body">
+                      <div class="price-box-title h6"><a href="#">智慧管理</a></div>
+                      <div class="price-box-text">简明文案</div>
+                    </div>
+                  </div>
+                  <!-- Price box-->
+                  <div class="price-box">
+                    <div class="price-box-media">
+                      <div class="placeholder-img-box h220">
+                        <img class="price-box-img" src="images/img_tmp.png" alt="" height="220"/>
+                        <div>占位图  270 * 220</div>
+                      </div>
+                      <div class="price-box-tag">占位标签</div>
+                    </div>
+                    <div class="price-box-body">
+                      <div class="price-box-title h6"><a href="#">智慧教学</a></div>
+                      <div class="price-box-text">简明文案</div>
+                    </div>
+                  </div>
+                  <!-- Price box-->
+                  <div class="price-box">
+                    <div class="price-box-media">
+                      <div class="placeholder-img-box h220">
+                        <img class="price-box-img" src="images/img_tmp.png" alt="" height="220"/>
+                        <div>占位图  270 * 220</div>
+                      </div>
+                      <div class="price-box-tag">占位标签</div>
+                    </div>
+                    <div class="price-box-body">
+                      <div class="price-box-title h6"><a href="#">智慧生活</a></div>
+                      <div class="price-box-text">简明文案</div>
+                    </div>
+                  </div>
+                  <!-- Price box-->
+                  <div class="price-box">
+                    <div class="price-box-media">
+                      <div class="placeholder-img-box h220">
+                        <img class="price-box-img" src="images/img_tmp.png" alt="" height="220"/>
+                        <div>占位图  270 * 220</div>
+                      </div>
+                      <div class="price-box-tag">占位标签</div>
+                    </div>
+                    <div class="price-box-body">
+                      <div class="price-box-title h6"><a href="#">智慧环境</a></div>
+                      <div class="price-box-text">简明文案</div>
+                    </div>
+                  </div>
+                  <!-- Price box-->
+                  <div class="price-box">
+                    <div class="price-box-media">
+                      <div class="placeholder-img-box h220">
+                        <img class="price-box-img" src="images/img_tmp.png" alt="" height="220"/>
+                        <div>占位图  270 * 220</div>
+                      </div>
+                      <div class="price-box-tag">占位标签</div>
+                    </div>
+                    <div class="price-box-body">
+                      <div class="price-box-title h6"><a href="#">其他核心业务</a></div>
+                      <div class="price-box-text">简明文案</div>
+                    </div>
+                  </div>
+          </div>
+        </div>
+      </section>
+      <!-- Blog-->
+      <section class="section-md bg-transparent">
+        <div class="container">
+          <div class="text-block text-block-1 text-center" data-animate='{"class":"fadeIn"}'>
+            <h5 class="text-primary">——&nbsp;&nbsp;&nbsp;&nbsp;把握校园管理进化趋势&nbsp;&nbsp;&nbsp;&nbsp;——</h5>
+            <h2>产品动态</h2>
+            <p class="big">宣传文案宣传文案宣传文案宣传文案宣传文案宣传文案宣传文案宣传文案宣传文案宣传文案宣传文案宣传文案宣传文案宣传文案宣传文案宣传文案宣传文案宣传文案宣传文案宣传文案宣传文案宣传文案宣传文案宣传文案</p>
+          </div>
+          <div class="row row-30 justify-content-center">
+            <div class="col-xs-10 col-sm-6">
+                    <!-- Post-->
+                    <div class="post" data-animate='{"class":"fadeIn"}'>
+                      <a class="post-media" href="single-post.html">
+                        <div class="placeholder-img-box h350">
+                          <img class="price-box-img" src="images/img_tmp.png" alt="" height="220"/>
+                          <div>占位图  570 * 350</div>
+                        </div>
+                      </a>
+                      <div class="post-meta">
+                        <div class="post-meta-item">
+                          <div class="post-meta-icon custom-font-calendar"></div>
+                          <div class="post-date">2021-05-01</div>
+                        </div>
+                        <div class="post-meta-item">
+                          <div class="post-meta-icon custom-font-message-circle"></div>
+                          <div class="post-comment">(3)条评论</div>
+                        </div>
+                      </div>
+                      <div class="post-title h6"><a href="single-post.html">动态标题1</a></div>
+                      <div class="post-text">动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容...</div>
+                    </div>
+            </div>
+            <div class="col-xs-10 col-sm-6">
+              <h5 class="text-primary">热门动态</h5>
+                    <!-- Post-->
+                    <div class="post" data-animate='{"class":"fadeInUp"}'>
+                      <div class="post-meta">
+                        <div class="post-meta-item">
+                          <div class="post-meta-icon custom-font-calendar"></div>
+                          <div class="post-date">2021-05-01</div>
+                        </div>
+                        <div class="post-meta-item">
+                          <div class="post-meta-icon custom-font-message-circle"></div>
+                          <div class="post-comment">(3)条评论</div>
+                        </div>
+                      </div>
+                      <div class="post-title h6"><a href="single-post.html">动态标题2</a></div>
+                      <div class="post-text">动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容...</div>
+                    </div>
+                    <!-- Post-->
+                    <div class="post" data-animate='{"class":"fadeInUp"}'>
+                      <div class="post-meta">
+                        <div class="post-meta-item">
+                          <div class="post-meta-icon custom-font-calendar"></div>
+                          <div class="post-date">2021-05-01</div>
+                        </div>
+                        <div class="post-meta-item">
+                          <div class="post-meta-icon custom-font-message-circle"></div>
+                          <div class="post-comment">(3)条评论</div>
+                        </div>
+                      </div>
+                      <div class="post-title h6"><a href="single-post.html">动态标题3</a></div>
+                      <div class="post-text">动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容...</div>
+                    </div>
+                    <!-- Post-->
+                    <div class="post" data-animate='{"class":"fadeInUp"}'>
+                      <div class="post-meta">
+                        <div class="post-meta-item">
+                          <div class="post-meta-icon custom-font-calendar"></div>
+                          <div class="post-date">2021-05-01</div>
+                        </div>
+                        <div class="post-meta-item">
+                          <div class="post-meta-icon custom-font-message-circle"></div>
+                          <div class="post-comment">(3)条评论</div>
+                        </div>
+                      </div>
+                      <div class="post-title h6"><a href="single-post.html">动态标题4</a></div>
+                      <div class="post-text">动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容动态内容...</div>
+                    </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Counters-->
+      <section class="section-lg bg-primary bg-image-wrap context-dark text-center text-md-left">
+        <!-- <div class="bg-image-wrap-item bg-image" style="background-image:url(images/image-05-875x705.jpg);"></div> -->
+        <div class="bg-image-wrap-item bg-image">
+          <div class="placeholder-img-box h705">
+            <img class="price-box-img" src="images/img_tmp.png" alt=""/>
+            <div>占位图  625 * 530</div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7">
+              <div class="pr-xxl-5">
+                <h2>为什么选择我们</h2>
+                <p class="big">金视野致力于拓展现代物联网、云计算、大数据技术在校园的应用，在教育科技领域深耕十数载，拥有丰富的定制化经验及成熟的解决方案</p>
+                <div class="row row-30 row-lg-55">
+                  <div class="col-6 col-sm-3 col-md-6">
+                          <!-- Blurb side-->
+                          <article class="blurb blurb-side">
+                            <div class="blurb-item">
+                              <div class="icon blurb-icon custom-font-graduated"></div>
+                            </div>
+                            <div class="blurb-body">
+                              <div class="blurb-counter-value h2"><span data-counter="">97</span><span class="counter-postfix">%</span>
+                              </div>
+                              <div class="blurb-title h4">关键数据1</div>
+                            </div>
+                          </article>
+                  </div>
+                  <div class="col-6 col-sm-3 col-md-6">
+                          <!-- Blurb side-->
+                          <article class="blurb blurb-side">
+                            <div class="blurb-item">
+                              <div class="icon blurb-icon custom-font-male-teacher"></div>
+                            </div>
+                            <div class="blurb-body">
+                              <div class="blurb-counter-value h2"><span data-counter="">50</span><span class="counter-postfix">+</span>
+                              </div>
+                              <div class="blurb-title h4">关键数据2</div>
+                            </div>
+                          </article>
+                  </div>
+                  <div class="col-6 col-sm-3 col-md-6">
+                          <!-- Blurb side-->
+                          <article class="blurb blurb-side">
+                            <div class="blurb-item">
+                              <div class="icon blurb-icon custom-font-student-at-desk"></div>
+                            </div>
+                            <div class="blurb-body">
+                              <div class="blurb-counter-value h2"><span data-counter="">6500</span>
+                              </div>
+                              <div class="blurb-title h4">关键数据3</div>
+                            </div>
+                          </article>
+                  </div>
+                  <div class="col-6 col-sm-3 col-md-6">
+                          <!-- Blurb side-->
+                          <article class="blurb blurb-side">
+                            <div class="blurb-item">
+                              <div class="icon blurb-icon custom-font-university"></div>
+                            </div>
+                            <div class="blurb-body">
+                              <div class="blurb-counter-value h2"><span data-counter="">10</span>
+                              </div>
+                              <div class="blurb-title h4">关键数据4</div>
+                            </div>
+                          </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Post event-->
+      <!-- <section class="section-md bg-transparent text-center">
+        <div class="container">
+          <div class="text-block text-block-1" data-animate='{"class":"fadeIn"}'>
+            <h5 class="text-primary">Don’t miss anything</h5>
+            <h2>Upcoming Events</h2>
+            <p class="big">Every week, we organize a variety of events for our students and undergraduates. From webinars to creative events, there are activities that are always worth your attention.</p>
+          </div>
+          <div class="row row-30 justify-content-center">
+            <div class="col-xs-8 col-sm-6 col-md-4">
+              <div class="post post-event" data-animate='{"class":"fadeInUp"}'><a class="post-media" href="single-post.html"><img class="post-img" src="images/image-06-370x240.jpg" alt="" width="370" height="240"/>
+                  <div class="post-date">
+                    <div class="post-day">19</div>
+                    <div class="post-month">Sep</div>
+                  </div></a>
+                <div class="post-heading h4">
+                  <div class="post-title"><a href="single-post.html">Creative Day</a></div>
+                  <div class="post-price">$20</div>
+                </div>
+                <div class="post-meta post-meta-vertical big">
+                  <div class="post-meta-item">
+                    <div class="post-meta-icon custom-font-clock"></div>
+                    <div class="post-time">12:00 am - 2:00 pm</div>
+                  </div>
+                  <div class="post-meta-item">
+                    <div class="post-meta-icon custom-font-pin"></div>
+                    <div class="post-location">Cambridge, MA 02138, USA</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-8 col-sm-6 col-md-4">
+              <div class="post post-event" data-animate='{"class":"fadeInUp","delay":".15s"}'><a class="post-media" href="single-post.html"><img class="post-img" src="images/image-07-370x240.jpg" alt="" width="370" height="240"/>
+                  <div class="post-date">
+                    <div class="post-day">21</div>
+                    <div class="post-month">Sep</div>
+                  </div></a>
+                <div class="post-heading h4">
+                  <div class="post-title"><a href="single-post.html">Poetry Event</a></div>
+                  <div class="post-price">$15</div>
+                </div>
+                <div class="post-meta post-meta-vertical big">
+                  <div class="post-meta-item">
+                    <div class="post-meta-icon custom-font-clock"></div>
+                    <div class="post-time">11:00 am - 1:00 pm</div>
+                  </div>
+                  <div class="post-meta-item">
+                    <div class="post-meta-icon custom-font-pin"></div>
+                    <div class="post-location">233 Main St. New York United States</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-8 col-sm-6 col-md-4">
+              <div class="post post-event" data-animate='{"class":"fadeInUp","delay":".3s"}'><a class="post-media" href="single-post.html"><img class="post-img" src="images/image-08-370x240.jpg" alt="" width="370" height="240"/>
+                  <div class="post-date">
+                    <div class="post-day">26</div>
+                    <div class="post-month">Sep</div>
+                  </div></a>
+                <div class="post-heading h4">
+                  <div class="post-title"><a href="single-post.html">Undergraduate Day</a></div>
+                  <div class="post-price">Free</div>
+                </div>
+                <div class="post-meta post-meta-vertical big">
+                  <div class="post-meta-item">
+                    <div class="post-meta-icon custom-font-clock"></div>
+                    <div class="post-time">1:00 pm - 11:59 pm</div>
+                  </div>
+                  <div class="post-meta-item">
+                    <div class="post-meta-icon custom-font-pin"></div>
+                    <div class="post-location">Cambridge, MA 02138, USA</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- Testimonials-->
+      <section class="section-md bg-300 text-center">
+        <div class="container">
+          <div class="text-block text-block-1" data-animate='{"class":"fadeIn"}'>
+            <h2>客户反馈</h2>
+            <p class="big">你可能想了解那些已经在使用金视野产品的人们的感受，他们来自不同的城市有着不同的身份，听听他们的看法，或许能够帮到你找到心仪的智慧校园产品</p>
+          </div>
+          <div class="slick-person-container">
+            <div class="slick-slider slick-person-img slider-nav" data-slick='{"slidesToShow":3,"arrows":false,"asNavFor":".slider-for","focusOnSelect":true,"centerMode":true,"centerPadding":"0px"}'>
+              <div class="slick-content"><img src="images/img_tmp.png" alt="" width="135" height="135"/>
+              </div>
+              <div class="slick-content"><img src="images/img_tmp.png" alt="" width="135" height="135"/>
+              </div>
+              <div class="slick-content"><img src="images/img_tmp.png" alt="" width="135" height="135"/>
+              </div>
+              <div class="slick-content"><img src="images/img_tmp.png" alt="" width="135" height="135"/>
+              </div>
+            </div>
+            <div class="slick-slider slick-person-content slider-for" data-slick='{"arrows":true,"asNavFor":".slider-nav","autoplay":true,"autoplaySpeed":5000,"fade":true}'>
+              <div class="slick-content">
+                      <!-- Quote-->
+                      <blockquote class="quote quote-simple">
+                        <q class="quote-text">用户使用反馈文案用户使用反馈文案用户使用反馈文案用户使用反馈文案用户使用反馈文案用户使用反馈文案用户使用反馈文案用户使用反馈文案用户使用反馈文案用户使用反馈文案用户使用反馈文案</q>
+                        <cite class="quote-cite h6">用户1</cite>
+                        <div class="quote-meta">济南实验中学 | 班主任</div>
+                      </blockquote>
+              </div>
+              <div class="slick-content">
+                      <!-- Quote-->
+                      <blockquote class="quote quote-simple">
+                        <q class="quote-text">用户使用反馈文案用户使用反馈文案用户使用反馈文案用户使用反馈文案用户使用反馈文案用户使用反馈文案用户使用反馈文案用户使用反馈文案用户使用反馈文案用户使用反馈文案</q>
+                        <cite class="quote-cite h6">用户2</cite>
+                        <div class="quote-meta">衡水一中 | 高三学生</div>
+                      </blockquote>
+              </div>
+              <div class="slick-content">
+                      <!-- Quote-->
+                      <blockquote class="quote quote-simple">
+                        <q class="quote-text">用户使用反馈文案用户使用反馈文案用户使用反馈文案用户使用反馈文案用户使用反馈文案用户使用反馈文案用户使用反馈文案用户使用反馈文案</q>
+                        <cite class="quote-cite h6">用户3</cite>
+                        <div class="quote-meta">海南省立一小 | 学生家长</div>
+                      </blockquote>
+              </div>
+              <div class="slick-content">
+                      <!-- Quote-->
+                      <blockquote class="quote quote-simple">
+                        <q class="quote-text">用户使用反馈文案用户使用反馈文案用户使用反馈文案用户使用反馈文案用户使用反馈文案用户使用反馈文案用户使用反馈文案用户使用反馈文案用户使用反馈文案用户使用反馈文案用户使用反馈文案用户使用</q>
+                        <cite class="quote-cite h6">用户4</cite>
+                        <div class="quote-meta">山东大学 | 研究生导师</div>
+                      </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Person side-->
+      <section class="section-md bg-transparent text-center">
+        <div class="container">
+          <div class="text-block text-block-1" data-animate='{"class":"fadeIn"}'>
+            <h5 class="text-primary">——&nbsp;&nbsp;&nbsp;&nbsp;相信合作的力量 共创智慧校园&nbsp;&nbsp;&nbsp;&nbsp;——</h5>
+            <h2>合作伙伴</h2>
+            <p class="big">概述文案概述文案概述文案概述文案概述文案概述文案概述文案概述文案概述文案概述文案概述文案概述文案概述文案概述文案概述文案概述文案概述文案概述文案</p>
+          </div>
+          <div class="row row-30 row-lg-60">
+            <div class="col-xs-6 col-lg-4">
+              <div class="person person-side" data-animate='{"class":"fadeInUp"}'>
+                <div class="person-media"><img class="person-img" src="images/img_tmp.png" alt="" width="135" height="135"/>
+                </div>
+                <div class="person-body">
+                  <div class="person-title h6"><a href="team-member.html">中国移动</a></div>
+                  <div class="person-meta">通信支持</div>
+                  <div class="person-text">简明文案简明文案简明文案简明文案简明文案简明文案简明文案...</div>
+                  <div class="person-social social"><a class="icon social-icon custom-font-facebook" href="#"></a><a class="icon social-icon custom-font-twitter" href="#"></a><a class="icon social-icon custom-font-linkedin" href="#"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-6 col-lg-4">
+              <div class="person person-side" data-animate='{"class":"fadeInUp","delay":".15s"}'>
+                <div class="person-media"><img class="person-img" src="images/img_tmp.png" alt="" width="135" height="135"/>
+                </div>
+                <div class="person-body">
+                  <div class="person-title h6"><a href="team-member.html">山东大学</a></div>
+                  <div class="person-meta">6年深度使用</div>
+                  <div class="person-text">简明文案简明文案简明文案简明文案简明文案简明文案简明文案...</div>
+                  <div class="person-social social"><a class="icon social-icon custom-font-facebook" href="#"></a><a class="icon social-icon custom-font-twitter" href="#"></a><a class="icon social-icon custom-font-linkedin" href="#"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-6 col-lg-4">
+              <div class="person person-side" data-animate='{"class":"fadeInUp","delay":".3s"}'>
+                <div class="person-media"><img class="person-img" src="images/img_tmp.png" alt="" width="135" height="135"/>
+                </div>
+                <div class="person-body">
+                  <div class="person-title h6"><a href="team-member.html">易科士</a></div>
+                  <div class="person-meta">硬件方案支持</div>
+                  <div class="person-text">简明文案简明文案简明文案简明文案简明文案简明文案简明文案...</div>
+                  <div class="person-social social"><a class="icon social-icon custom-font-facebook" href="#"></a><a class="icon social-icon custom-font-twitter" href="#"></a><a class="icon social-icon custom-font-linkedin" href="#"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-6 col-lg-4">
+              <div class="person person-side" data-animate='{"class":"fadeInUp"}'>
+                <div class="person-media"><img class="person-img" src="images/img_tmp.png" alt="" width="135" height="135"/>
+                </div>
+                <div class="person-body">
+                  <div class="person-title h6"><a href="team-member.html">其他合作伙伴1</a></div>
+                  <div class="person-meta">标签文案</div>
+                  <div class="person-text">简明文案简明文案简明文案简明文案简明文案简明文案简明文案...</div>
+                  <div class="person-social social"><a class="icon social-icon custom-font-facebook" href="#"></a><a class="icon social-icon custom-font-twitter" href="#"></a><a class="icon social-icon custom-font-linkedin" href="#"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-6 col-lg-4">
+              <div class="person person-side" data-animate='{"class":"fadeInUp","delay":".15s"}'>
+                <div class="person-media"><img class="person-img" src="images/img_tmp.png" alt="" width="135" height="135"/>
+                </div>
+                <div class="person-body">
+                  <div class="person-title h6"><a href="team-member.html">其他合作伙伴2</a></div>
+                  <div class="person-meta">标签文案</div>
+                  <div class="person-text">简明文案简明文案简明文案简明文案简明文案简明文案简明文案...</div>
+                  <div class="person-social social"><a class="icon social-icon custom-font-facebook" href="#"></a><a class="icon social-icon custom-font-twitter" href="#"></a><a class="icon social-icon custom-font-linkedin" href="#"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-6 col-lg-4">
+              <div class="person person-side" data-animate='{"class":"fadeInUp","delay":".3s"}'>
+                <div class="person-media"><img class="person-img" src="images/img_tmp.png" alt="" width="135" height="135"/>
+                </div>
+                <div class="person-body">
+                  <div class="person-title h6"><a href="team-member.html">其他合作伙伴3</a></div>
+                  <div class="person-meta">标签文案</div>
+                  <div class="person-text">简明文案简明文案简明文案简明文案简明文案简明文案简明文案...</div>
+                  <div class="person-social social"><a class="icon social-icon custom-font-facebook" href="#"></a><a class="icon social-icon custom-font-twitter" href="#"></a><a class="icon social-icon custom-font-linkedin" href="#"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Call to action-->
+      <section class="section-sm bg-primary context-dark text-center">
+        <div class="container">
+          <div class="group-16 d-lg-flex flex-wrap justify-content-between align-items-center">
+            <h3>立即加入智慧校园大家庭(CTA文案)</h3><a class="btn btn-primary" href="#">开始探索</a>
+          </div>
+        </div>
+      </section>
+      <!-- Footer default-->
+      <footer class="section footer">
+        <div class="footer-top bg-300">
+          <div class="container">
+            <div class="row row-30">
+              <div class="col-xs-6 col-md-3">
+                <h5 class="footer-title">联系方式</h5>
+                <ul class="list list-icons">
+                  <li class="list-item">
+                    <div class="list-icon custom-font-pin"></div><a class="link link-inherit" href="#">山东省济南市天桥区铜元局前街1号</a>
+                  </li>
+                  <li class="list-item">
+                    <div class="list-icon custom-font-email"></div><a class="link link-inherit" href="mailto:#">jsy-technology@126.com</a>
+                  </li>
+                  <li class="list-item">
+                    <div class="list-icon custom-font-phone"></div><span><span>服务热线: </span><a class="link link-inherit" href="tel:#">400-666-8888</a></span>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-6 col-md-3">
+                <h5 class="footer-title">关于金视野</h5>
+                <ul class="list list-sm">
+                  <li class="list-item"><a class="link link-inherit" href="#">行业新闻</a></li>
+                  <li class="list-item"><a class="link link-inherit" href="#">企业历程</a></li>
+                  <li class="list-item"><a class="link link-inherit" href="#">企业动态</a></li>
+                  <li class="list-item"><a class="link link-inherit" href="#">企业画册</a></li>
+                  <li class="list-item"><a class="link link-inherit" href="#">服务支持</a></li>
+                  <li class="list-item"><a class="link link-inherit" href="#">加入我们</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-md-3">
+                <h5 class="footer-title">关注我们</h5>
+                <ul class="list list-sm">
+                  <li class="list-item">
+                    <img class="qrcode-img" src="images/wx.png" alt="" width="96" height="96"/>
+                    <!-- <div>微信公众号</div> -->
+                    <!-- <a class="link link-inherit" href="#">Our Mission</a> -->
+                    <div class="deliver-v"></div>
+                    <img class="qrcode-img" src="images/wb.png" alt="" width="96" height="96"/>
+                  </li>
+                  <!-- <li class="list-item">-----------------</li>
+                  <li class="list-item">
+                    <img class="person-img" src="images/wb.png" alt="" width="96" height="96"/>
+                  </li> -->
+                  <!-- <li class="list-item"><a class="link link-inherit" href="#">Our Values</a></li>
+                  <li class="list-item"><a class="link link-inherit" href="#">About Us</a></li>
+                  <li class="list-item"><a class="link link-inherit" href="academics.html">Academics</a></li>
+                  <li class="list-item"><a class="link link-inherit" href="#">Degree Programs</a></li> -->
+                </ul>
+              </div>
+              <div class="col-6 col-md-3">
+                <h5 class="footer-title">应用下载</h5>
+                <ul class="list list-sm">
+                  <li class="list-item">
+                    <img class="person-img" src="images/app.png" alt="" width="120"/>
+                    <!-- <a class="link link-inherit" href="team-member.html">Olivia Thomas</a> -->
+                  </li>
+                  <!-- <li class="list-item"><a class="link link-inherit" href="team-member.html">Alice Bohm</a></li>
+                  <li class="list-item"><a class="link link-inherit" href="team-member.html">Max Turner</a></li>
+                  <li class="list-item"><a class="link link-inherit" href="team-member.html">Jane Smith</a></li>
+                  <li class="list-item"><a class="link link-inherit" href="team-member.html">John Stevens</a></li>
+                  <li class="list-item"><a class="link link-inherit" href="team-member.html">Martha Stevens</a></li>
+                  <li class="list-item"><a class="link link-inherit" href="team-member.html">Connor Walker</a></li> -->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom bg-700 context-dark text-center">
+          <div class="container">
+            <!-- Copyright-->
+            <p class="rights">Copyright &copy; 2021 . 山东金视野教育科技股份有限公司</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- Preloader-->
+    <div class="preloader">
+      <div class="preloader-inner">
+        <div class="preloader-dot"></div>
+        <div class="preloader-dot"></div>
+        <div class="preloader-dot"></div>
+        <div class="preloader-dot"></div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tutors</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="components/base/base.css">
+    <link rel="stylesheet" href="components/base/extra-self.css">
+    <script src="components/base/core.min.js"></script>
+    <script src="components/base/script.js"></script>
+  </head>
+  <body>
+    <div class="page">
+      <!--RD Navbar-->
+      <header class="section rd-navbar-wrap" data-preset='{"title":"Navbar Default","category":"header","reload":true,"id":"navbar-default"}'>
+        <nav class="rd-navbar" data-rd-navbar='{"responsive":{"1200":{"stickUpOffset":"50px"}}}'>
+          <div class="navbar-container">
+            <div class="navbar-cell">
+              <div class="navbar-panel">
+                <button class="navbar-switch novi-icon custom-font-menu" data-multi-switch='{"targets":".rd-navbar","scope":".rd-navbar","isolate":"[data-multi-switch]"}'></button>
+                <div class="navbar-logo"><a class="navbar-logo-link" href="index.html"><img class="navbar-logo-inverse" src="images/logo_tmp.png" alt="金视野" width="198" height="50"/></a></div>
+              </div>
+            </div>
+            <div class="navbar-spacer"></div>
+            <div class="navbar-cell navbar-sidebar">
+              <ul class="navbar-navigation rd-navbar-nav">
+                <li class="navbar-navigation-root-item"><a class="navbar-navigation-root-link" href="index.html">首页</a>
+                </li>
+                <li class="navbar-navigation-root-item"><a class="navbar-navigation-root-link" href="history.html">关于金视野</a>
+                  <!-- <ul class="navbar-navigation-dropdown rd-navbar-dropdown">
+                    <li class="navbar-navigation-back">
+                      <button class="navbar-navigation-back-btn">Back</button>
+                    </li>
+                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="gallery.html">企业画册</a>
+                    </li>
+                  </ul> -->
+                </li>
+                <li class="navbar-navigation-root-item"><a class="navbar-navigation-root-link" href="academics.html">产品中心</a>
+                </li>
+                <li class="navbar-navigation-root-item active"><a class="navbar-navigation-root-link" href="tutors.html">解决方案</a>
+                  <!-- <ul class="navbar-navigation-dropdown rd-navbar-dropdown">
+                    <li class="navbar-navigation-back">
+                      <button class="navbar-navigation-back-btn">Back</button>
+                    </li>
+                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="team-member.html">Team member</a>
+                    </li>
+                  </ul> -->
+                </li>
+                <li class="navbar-navigation-root-item"><a class="navbar-navigation-root-link" href="blog.html">媒体中心</a>
+                  <!-- <ul class="navbar-navigation-dropdown rd-navbar-dropdown">
+                    <li class="navbar-navigation-back">
+                      <button class="navbar-navigation-back-btn">Back</button>
+                    </li>
+                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="single-post.html">Single post</a>
+                    </li>
+                  </ul> -->
+                </li>
+                <li class="navbar-navigation-root-item"><a class="navbar-navigation-root-link" href="#">服务支持</a>
+                  <!-- <ul class="navbar-navigation-dropdown rd-navbar-dropdown">
+                    <li class="navbar-navigation-back">
+                      <button class="navbar-navigation-back-btn">Back</button>
+                    </li>
+                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="404.html">404</a>
+                    </li>
+                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="coming-soon.html">Coming soon</a>
+                    </li>
+                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="privacy-policy.html">Privacy policy</a>
+                    </li>
+                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="search-results.html">Search results</a>
+                    </li>
+                  </ul> -->
+                </li>
+                <li class="navbar-navigation-root-item"><a class="navbar-navigation-root-link" href="contact-us.html">联系我们</a>
+                </li>
+              </ul>
+            </div>
+            <div class="navbar-spacer"></div>
+            <div class="navbar-cell">
+              <div class="navbar-subpanel">
+                <div class="navbar-subpanel-item">
+                  <div class="navbar-search">
+                    <div class="navbar-search-container">
+                      <form class="navbar-search-form" action="search-results.html" method="GET" data-rd-search='{"output":".navbar-search-results","mode":"live","liveResults":3,"template":"<h5 class=\"search-title\"><a target=\"_top\" href=\"#{href}\" class=\"search-link\">#{title}</a></h5><p>...#{token}...</p>"}'>
+                        <input class="navbar-search-input" type="text" placeholder="请输入关键词..." autocomplete="off" name="s"/>
+                        <button class="navbar-search-btn custom-font-search novi-icon"></button>
+                        <button class="navbar-search-close search-switch custom-font-close novi-icon" type="button" data-multi-switch='{"targets":".rd-navbar","scope":".rd-navbar","class":"navbar-search-active","isolate":"[data-multi-switch]:not(.search-switch)"}'></button>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="navbar-search-results">没有搜索到任何结果</div>
+                  <button class="navbar-button search-switch custom-font-search" data-multi-switch='{"targets":".rd-navbar","scope":".rd-navbar","class":"navbar-search-active","isolate":"[data-multi-switch]:not(.search-switch)"}'></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <section class="section breadcrumb-section">
+        <div class="container">
+          <!-- Breadcrumb-->
+          <div class="breadcrumb">
+            <div class="breadcrumb-inner">
+              <div class="breadcrumb-item"><a class="breadcrumb-link" href="index.html">首页</a></div>
+              <div class="breadcrumb-item"><span class="breadcrumb-text breadcrumb-active">解决方案</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-md bg-transparent text-center text-md-left">
+        <h5 class="text-primary text-center">针针见血 面面俱到</h5>
+        <h2 class="text-center">智慧触手可及</h2>
+        <div class="container mt-4">
+          <div class="row">
+            <div class="col-md-6 bg-image  pa-0">
+              <div class="placeholder-img-box h-auto">
+                <img class="price-box-img" src="images/img_tmp.png" alt=""/>
+                <div>占位图  600 * 488</div>
+              </div>
+            </div>
+          <div class="col-md-6 bg-secondary context-dark spacing-box">
+            <h2>校管应用常见问题</h2>
+            <ul class="mt-3 custom-ul">
+              <li>学校应用系统太多，账号密码记不住?</li>
+              <li>各平台功能独立，不能完整的覆盖需求，又存在功能重复?</li>
+              <li>数据存储分散，难以统一管理，数据无法互联互通难以核对?</li>
+              <li>原有系统升级扩展困难?</li>
+              <li>平台功能及流程设计不符合学校实际需求又无法贴合个性化?</li>
+            </ul>
+          </div>
+            <div class="col-md-6 bg-primary context-dark spacing-box">
+              <h2>我们的解决方案</h2>
+              <ul class="mt-3 custom-ul">
+                <li>
+                  <p class="list-paragraph">统一管理化</p>
+                  <div class="list-text">简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案</div>
+                </li>
+                <li>
+                  <p class="list-paragraph">数据互联互通</p>
+                  <div class="list-text">简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案</div>
+                </li>
+                <li>
+                  <p class="list-paragraph">原有系统整合服务</p>
+                  <div class="list-text">简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案</div>
+                </li>
+                <li>
+                  <p class="list-paragraph">个性化服务开发</p>
+                  <div class="list-text">简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案</div>
+                </li>
+              </ul>
+            </div>
+            <!-- <div class="col-md-6 bg-image" style="background-image:url(images/image-13-586x545.jpg);"> -->
+              <div class="col-md-6 bg-image pa-0">
+                <div class="placeholder-img-box h-auto">
+                  <img class="price-box-img" src="images/img_tmp.png" alt=""/>
+                  <div>占位图  600 * 488</div>
+                </div>
+              </div>
+              <!-- <div class="col-md-6 bg-image" style="background-image:url(images/image-14-586x545.jpg);"> -->
+              
+          </div>
+        </div>
+      </section>
+      <section class="section-md bg-300 text-center">
+        <div class="container-full">
+          <!-- <div class="text-block text-block-1" data-animate='{"class":"fadeIn"}'>
+            <h2>客户反馈</h2>
+          </div> -->
+          <div class="slick-person-container slick-custom-container">
+            <div class="slick-slider slick-person-img slider-nav" data-slick='{"slidesToShow":3,"arrows":false,"asNavFor":".slider-for","focusOnSelect":true,"centerMode":true,"centerPadding":"0px"}'>
+              <div class="slick-content">
+                <img src="images/img_tmp.png" alt="" width="135" height="135"/>
+              </div>
+              <div class="slick-content"><img src="images/img_tmp.png" alt="" width="135" height="135"/>
+              </div>
+              <div class="slick-content"><img src="images/img_tmp.png" alt="" width="135" height="135"/>
+              </div>
+              <div class="slick-content"><img src="images/img_tmp.png" alt="" width="135" height="135"/>
+              </div>
+            </div>
+            <div class="slick-slider slick-person-content slider-for" data-slick='{"arrows":true,"asNavFor":".slider-nav","autoplay":true,"autoplaySpeed":5000,"fade":true}'>
+              <div class="slick-content">
+                <blockquote class="quote quote-simple full">
+                  <cite class="quote-cite h2">智慧管理</cite>
+                  <q class="quote-text mt-3">描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案</q>
+                  <div class="owl-carousel owl-content-1" data-owl="{&quot;dots&quot;:true}" data-autoplay="false" data-loop="false" data-items="1" data-sm-items="2" data-md-items="3" data-lg-items="4">
+                    <div class="person person-boxed">
+                      <div class="person-media">
+                        <div class="placeholder-img-box h-auto">
+                          <img class="price-box-img" src="images/img_tmp.png" alt=""/>
+                          <div>占位图  256 * 256</div>
+                        </div>
+                      </div>
+                      <div class="person-body">
+                        <div class="person-title h6">校园OA</div>
+                        <div class="custom-text">简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案</div>
+                      </div>
+                    </div>
+                    <div class="person person-boxed">
+                      <div class="person-media">
+                        <div class="placeholder-img-box h-auto">
+                          <img class="price-box-img" src="images/img_tmp.png" alt=""/>
+                          <div>占位图  256 * 256</div>
+                        </div>
+                      </div>
+                      <div class="person-body">
+                        <div class="person-title h6">迎新系统</div>
+                        <div class="custom-text">简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案</div>
+                      </div>
+                    </div>
+                    <div class="person person-boxed">
+                      <div class="person-media">
+                        <div class="placeholder-img-box h-auto">
+                          <img class="price-box-img" src="images/img_tmp.png" alt=""/>
+                          <div>占位图  256 * 256</div>
+                        </div>
+                      </div>
+                      <div class="person-body">
+                        <div class="person-title h6">缴费系统</div>
+                        <div class="custom-text">简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案</div>
+                      </div>
+                    </div>
+                    <div class="person person-boxed">
+                      <div class="person-media">
+                        <div class="placeholder-img-box h-auto">
+                          <img class="price-box-img" src="images/img_tmp.png" alt=""/>
+                          <div>占位图  256 * 256</div>
+                        </div>
+                      </div>
+                      <div class="person-body">
+                        <div class="person-title h6">资产设备管理</div>
+                        <div class="custom-text">简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案</div>
+                      </div>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+              <div class="slick-content">
+                <blockquote class="quote quote-simple full">
+                  <cite class="quote-cite h2">智慧教学</cite>
+                  <q class="quote-text mt-3">描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案</q>
+                  <div class="owl-carousel owl-content-1" data-owl="{&quot;dots&quot;:true}" data-autoplay="false" data-loop="false" data-items="1" data-sm-items="2" data-md-items="3" data-lg-items="4">
+                    <div class="person person-boxed">
+                      <div class="person-media">
+                        <div class="placeholder-img-box h-auto">
+                          <img class="price-box-img" src="images/img_tmp.png" alt=""/>
+                          <div>占位图  256 * 256</div>
+                        </div>
+                      </div>
+                      <div class="person-body">
+                        <div class="person-title h6">智慧资源</div>
+                        <div class="custom-text">简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案</div>
+                      </div>
+                    </div>
+                    <div class="person person-boxed">
+                      <div class="person-media">
+                        <div class="placeholder-img-box h-auto">
+                          <img class="price-box-img" src="images/img_tmp.png" alt=""/>
+                          <div>占位图  256 * 256</div>
+                        </div>
+                      </div>
+                      <div class="person-body">
+                        <div class="person-title h6">图书管理</div>
+                        <div class="custom-text">简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案</div>
+                      </div>
+                    </div>
+                    <div class="person person-boxed">
+                      <div class="person-media">
+                        <div class="placeholder-img-box h-auto">
+                          <img class="price-box-img" src="images/img_tmp.png" alt=""/>
+                          <div>占位图  256 * 256</div>
+                        </div>
+                      </div>
+                      <div class="person-body">
+                        <div class="person-title h6">智慧阅卷</div>
+                        <div class="custom-text">简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案</div>
+                      </div>
+                    </div>
+                    <div class="person person-boxed">
+                      <div class="person-media">
+                        <div class="placeholder-img-box h-auto">
+                          <img class="price-box-img" src="images/img_tmp.png" alt=""/>
+                          <div>占位图  256 * 256</div>
+                        </div>
+                      </div>
+                      <div class="person-body">
+                        <div class="person-title h6">学情分析</div>
+                        <div class="custom-text">简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案</div>
+                      </div>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+              <div class="slick-content">
+                <blockquote class="quote quote-simple full">
+                  <cite class="quote-cite h2">智慧生活</cite>
+                  <q class="quote-text mt-3">描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案</q>
+                  <div class="owl-carousel owl-content-1" data-owl="{&quot;dots&quot;:true}" data-autoplay="false" data-loop="false" data-items="1" data-sm-items="2" data-md-items="3" data-lg-items="4">
+                    <div class="person person-boxed">
+                      <div class="person-media">
+                        <div class="placeholder-img-box h-auto">
+                          <img class="price-box-img" src="images/img_tmp.png" alt=""/>
+                          <div>占位图  256 * 256</div>
+                        </div>
+                      </div>
+                      <div class="person-body">
+                        <div class="person-title h6">校园一卡通</div>
+                        <div class="custom-text">简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案</div>
+                      </div>
+                    </div>
+                    <div class="person person-boxed">
+                      <div class="person-media">
+                        <div class="placeholder-img-box h-auto">
+                          <img class="price-box-img" src="images/img_tmp.png" alt=""/>
+                          <div>占位图  256 * 256</div>
+                        </div>
+                      </div>
+                      <div class="person-body">
+                        <div class="person-title h6">智能手环</div>
+                        <div class="custom-text">简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案</div>
+                      </div>
+                    </div>
+                    <div class="person person-boxed">
+                      <div class="person-media">
+                        <div class="placeholder-img-box h-auto">
+                          <img class="price-box-img" src="images/img_tmp.png" alt=""/>
+                          <div>占位图  256 * 256</div>
+                        </div>
+                      </div>
+                      <div class="person-body">
+                        <div class="person-title h6">宿舍管理</div>
+                        <div class="custom-text">简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案</div>
+                      </div>
+                    </div>
+                    <div class="person person-boxed">
+                      <div class="person-media">
+                        <div class="placeholder-img-box h-auto">
+                          <img class="price-box-img" src="images/img_tmp.png" alt=""/>
+                          <div>占位图  256 * 256</div>
+                        </div>
+                      </div>
+                      <div class="person-body">
+                        <div class="person-title h6">亲情语音</div>
+                        <div class="custom-text">简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案</div>
+                      </div>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+              <div class="slick-content">
+                <blockquote class="quote quote-simple full">
+                  <cite class="quote-cite h2">智慧环境</cite>
+                  <q class="quote-text mt-3">描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案</q>
+                  <div class="owl-carousel owl-content-1" data-owl="{&quot;dots&quot;:true}" data-autoplay="false" data-loop="false" data-items="1" data-sm-items="2" data-md-items="3" data-lg-items="4">
+                    <div class="person person-boxed">
+                      <div class="person-media">
+                        <div class="placeholder-img-box h-auto">
+                          <img class="price-box-img" src="images/img_tmp.png" alt=""/>
+                          <div>占位图  256 * 256</div>
+                        </div>
+                      </div>
+                      <div class="person-body">
+                        <div class="person-title h6">智能班牌</div>
+                        <div class="custom-text">简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案</div>
+                      </div>
+                    </div>
+                    <div class="person person-boxed">
+                      <div class="person-media">
+                        <div class="placeholder-img-box h-auto">
+                          <img class="price-box-img" src="images/img_tmp.png" alt=""/>
+                          <div>占位图  256 * 256</div>
+                        </div>
+                      </div>
+                      <div class="person-body">
+                        <div class="person-title h6">访客系统</div>
+                        <div class="custom-text">简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案</div>
+                      </div>
+                    </div>
+                    <div class="person person-boxed">
+                      <div class="person-media">
+                        <div class="placeholder-img-box h-auto">
+                          <img class="price-box-img" src="images/img_tmp.png" alt=""/>
+                          <div>占位图  256 * 256</div>
+                        </div>
+                      </div>
+                      <div class="person-body">
+                        <div class="person-title h6">出入校管理</div>
+                        <div class="custom-text">简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案</div>
+                      </div>
+                    </div>
+                    <div class="person person-boxed">
+                      <div class="person-media">
+                        <div class="placeholder-img-box h-auto">
+                          <img class="price-box-img" src="images/img_tmp.png" alt=""/>
+                          <div>占位图  256 * 256</div>
+                        </div>
+                      </div>
+                      <div class="person-body">
+                        <div class="person-title h6">人脸识别测温考勤</div>
+                        <div class="custom-text">简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案简述文案</div>
+                      </div>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Person-->
+      <!-- <section class="section-md bg-transparent text-center">
+        <div class="container">
+          <div class="text-block text-block-1">
+            <h5 class="text-primary">People behind our success</h5>
+            <h2>Our tutors</h2>
+            <p class="big">Massa, et porttitor cras sed ultrices ullamcorper mauris semper iaculis. Ornare suscipit purus nulla pharetra velit, leo in. Amet nulla nunc vitae viverra pellentesque in eget. Mi ut sit ultrices sed.</p>
+          </div>
+          <div class="owl-carousel owl-content-1" data-owl="{&quot;dots&quot;:true}" data-autoplay="false" data-loop="false" data-items="1" data-sm-items="2" data-md-items="3" data-lg-items="4">
+                  <div class="person person-boxed">
+                    <div class="person-media"><img class="person-img" src="images/person-01-270x280.jpg" alt="" width="270" height="280"/>
+                    </div>
+                    <div class="person-body">
+                      <div class="person-title h6"><a href="team-member.html">Leslie Alexander</a></div>
+                      <div class="custom-text">Teacher</div>
+                      <div class="person-social social"><a class="icon social-icon custom-font-facebook" href="#"></a><a class="icon social-icon custom-font-twitter" href="#"></a><a class="icon social-icon custom-font-linkedin" href="#"></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="person person-boxed">
+                    <div class="person-media"><img class="person-img" src="images/person-02-270x280.jpg" alt="" width="270" height="280"/>
+                    </div>
+                    <div class="person-body">
+                      <div class="person-title h6"><a href="team-member.html">Cameron Williamson</a></div>
+                      <div class="custom-text">Teacher</div>
+                      <div class="person-social social"><a class="icon social-icon custom-font-facebook" href="#"></a><a class="icon social-icon custom-font-twitter" href="#"></a><a class="icon social-icon custom-font-linkedin" href="#"></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="person person-boxed">
+                    <div class="person-media"><img class="person-img" src="images/person-05-270x280.jpg" alt="" width="270" height="280"/>
+                    </div>
+                    <div class="person-body">
+                      <div class="person-title h6"><a href="team-member.html">Brooklyn Simmons</a></div>
+                      <div class="custom-text">Teacher</div>
+                      <div class="person-social social"><a class="icon social-icon custom-font-facebook" href="#"></a><a class="icon social-icon custom-font-twitter" href="#"></a><a class="icon social-icon custom-font-linkedin" href="#"></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="person person-boxed">
+                    <div class="person-media"><img class="person-img" src="images/person-04-270x280.jpg" alt="" width="270" height="280"/>
+                    </div>
+                    <div class="person-body">
+                      <div class="person-title h6"><a href="team-member.html">Jacob Jones</a></div>
+                      <div class="custom-text">Teacher</div>
+                      <div class="person-social social"><a class="icon social-icon custom-font-facebook" href="#"></a><a class="icon social-icon custom-font-twitter" href="#"></a><a class="icon social-icon custom-font-linkedin" href="#"></a>
+                      </div>
+                    </div>
+                  </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- Call to action-->
+      <section class="section-sm bg-primary context-dark text-center">
+        <div class="container">
+          <div class="group-16 d-lg-flex flex-wrap justify-content-between align-items-center">
+            <h3>立即加入智慧校园大家庭(CTA文案)</h3><a class="btn btn-primary" href="#">开始探索</a>
+          </div>
+        </div>
+      </section>
+      <!-- Footer default-->
+      <footer class="section footer">
+        <div class="footer-top bg-300">
+          <div class="container">
+            <div class="row row-30">
+              <div class="col-xs-6 col-md-3">
+                <h5 class="footer-title">联系方式</h5>
+                <ul class="list list-icons">
+                  <li class="list-item">
+                    <div class="list-icon custom-font-pin"></div><a class="link link-inherit" href="#">山东省济南市天桥区铜元局前街1号</a>
+                  </li>
+                  <li class="list-item">
+                    <div class="list-icon custom-font-email"></div><a class="link link-inherit" href="mailto:#">jsy-technology@126.com</a>
+                  </li>
+                  <li class="list-item">
+                    <div class="list-icon custom-font-phone"></div><span><span>服务热线: </span><a class="link link-inherit" href="tel:#">400-666-8888</a></span>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-6 col-md-3">
+                <h5 class="footer-title">关于金视野</h5>
+                <ul class="list list-sm">
+                  <li class="list-item"><a class="link link-inherit" href="#">行业新闻</a></li>
+                  <li class="list-item"><a class="link link-inherit" href="#">企业历程</a></li>
+                  <li class="list-item"><a class="link link-inherit" href="#">企业动态</a></li>
+                  <li class="list-item"><a class="link link-inherit" href="#">企业画册</a></li>
+                  <li class="list-item"><a class="link link-inherit" href="#">服务支持</a></li>
+                  <li class="list-item"><a class="link link-inherit" href="#">加入我们</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-md-3">
+                <h5 class="footer-title">关注我们</h5>
+                <ul class="list list-sm">
+                  <li class="list-item">
+                    <img class="qrcode-img" src="images/wx.png" alt="" width="96" height="96"/>
+                    <div class="deliver-v"></div>
+                    <img class="qrcode-img" src="images/wb.png" alt="" width="96" height="96"/>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-6 col-md-3">
+                <h5 class="footer-title">应用下载</h5>
+                <ul class="list list-sm">
+                  <li class="list-item">
+                    <img class="person-img" src="images/app.png" alt="" width="120"/>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom bg-700 context-dark text-center">
+          <div class="container">
+            <!-- Copyright-->
+            <p class="rights">Copyright &copy; 2021 . 山东金视野教育科技股份有限公司</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- Preloader-->
+    <div class="preloader">
+      <div class="preloader-inner">
+        <div class="preloader-dot"></div>
+        <div class="preloader-dot"></div>
+        <div class="preloader-dot"></div>
+        <div class="preloader-dot"></div>
+      </div>
+    </div>
+  </body>
+</html>
